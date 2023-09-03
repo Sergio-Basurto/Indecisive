@@ -1,0 +1,77 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("https://imgur.com/NejpfTZ.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(3px);
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #e5cb7a;
+  color: #333333;
+  border: 2px solid #333333;
+  border-radius: 25px;
+}
+
+header h1 {
+  margin-bottom: 30px;
+}
+
+.Button-style {
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.Button-style label {
+  background-color: #e5cb7a;
+  color: #333333;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  margin-bottom: 24px;
+}
+
+.Button-style select {
+  background-color: #e5cb7a;
+  color: #333333;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.Button-style select option {
+  background-color: #e5cb7a;
+  color: #333333;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#form {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #e5cb7a;
+  color: #333333;
+  border: 2px solid #333333;
+  border-radius: 25px;
+  margin-top: auto;
+  padding: 20px;
+}
