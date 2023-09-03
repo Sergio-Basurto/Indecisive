@@ -39,6 +39,8 @@ const foodChoices = {
     "https://m.yelp.com/biz/lauras-restaurant-arleta",
     "https://m.yelp.com/biz/que-ricos-fresh-mexican-kitchen-north-hollywood",
     "https://m.yelp.com/biz/carnitas-michoacan-panorama-city",
+    "https://www.yelp.com/biz/chipotle-mexican-grill-north-hollywood-2",
+    "https://www.yelp.com/biz/taco-bell-north-hollywood-2",
   ],
   // Add more food categories and URL arrays as needed
 };
